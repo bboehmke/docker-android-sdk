@@ -4,7 +4,7 @@ Android SDK
 Usage
 -----
 
-For example if you have an Android Project (Gradle based) at 
+If you have an Android Project (Gradle based) at 
 ```~/AndroidStudioProjects/Project/``` you can build the project with:
 
 ```

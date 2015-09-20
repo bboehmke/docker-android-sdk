@@ -9,7 +9,7 @@ If you have an Android Project (Gradle based) at
 
 ```
 docker run --rm \
-    -v "$PWD":/src/ \
+    -v ~/AndroidStudioProjects/Project/:/src/ \
     bboehmke/android-sdk \
     gradle build
 ```
@@ -18,7 +18,7 @@ If the gradle cache should be kept between builds use:
 ```
 docker run --rm \
     -v /docker/data/androidGradle:/root/ \
-    -v "$PWD":/src/ \
+    -v ~/AndroidStudioProjects/Project/:/src/ \
     bboehmke/android-sdk \
     gradle build
 ```

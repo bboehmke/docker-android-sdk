@@ -17,8 +17,8 @@ RUN curl -sSL https://services.gradle.org/distributions/gradle-2.6-bin.zip -o /t
 
 # define android SDK components
 ENV ANDROID_SDK_COMPONENTS \
-    platform-tools,build-tools-22.0.1,android-22,extra-android-support,\
-    addon-google_apis-google-22,extra-google-google_play_services,\
+    platform-tools,build-tools-22.0.1,build-tools-23.0.1,android-23,extra-android-support,\
+    addon-google_apis-google-23,extra-google-google_play_services,\
     extra-android-m2repository,extra-google-m2repository,extra-google-play_apk_expansion
 
 # define android home
